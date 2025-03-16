@@ -90,14 +90,32 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* White Glowing Outline */
+#discordBtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    z-index: -1;
 }
 
 #discordBtn:hover {
     background: #5b6eae;
 }
 
+/* Discord Logo Styling */
 .discord-icon {
     width: 24px;
     height: 24px;
     margin-right: 10px;
+    object-fit: contain; /* Ensure the image stays proportionate */
 }

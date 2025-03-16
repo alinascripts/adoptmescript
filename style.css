@@ -87,9 +87,17 @@ button:hover {
     margin-top: 10px;
     font-family: 'Luckiest Guy', cursive;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #discordBtn:hover {
     background: #5b6eae;
 }
 
+.discord-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}

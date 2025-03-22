@@ -1,6 +1,6 @@
 body {
-    background-color: #240b2f; /* Dark pinkish-purple */
-    color: #ffffff;
+    background-color: #f8d7da; /* Soft pastel pink background */
+    color: #5a1a1a; /* Deep pink text */
     font-family: 'Luckiest Guy', cursive;
     display: flex;
     justify-content: center;
@@ -10,25 +10,25 @@ body {
 }
 
 .container {
-    background: #3a103f; /* Deep pinkish background */
+    background: #f4c2c2; /* Light pastel pink box */
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0px 0px 20px rgba(255, 105, 180, 0.4); /* Soft pink glow */
+    box-shadow: 0px 0px 20px rgba(255, 182, 193, 0.5); /* Soft pink glow */
     text-align: center;
     width: 80%;
     max-width: 500px;
 }
 
 h1 {
-    color: #ff75c3; /* Bright pink */
+    color: #d98298; /* Medium pastel pink */
     font-size: 26px;
 }
 
 textarea {
     width: 100%;
     height: 80px;
-    background: #601c65; /* Dark pinkish text area */
-    color: white;
+    background: #ffebef; /* Very light pink */
+    color: #5a1a1a; /* Dark pink text */
     border: none;
     padding: 10px;
     font-size: 16px;
@@ -38,7 +38,7 @@ textarea {
 }
 
 button {
-    background: #ff4da6; /* Vibrant pink */
+    background: #ffb6c1; /* Soft pastel pink */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -50,13 +50,13 @@ button {
 }
 
 button:hover {
-    background: #e60073; /* Darker pink hover effect */
+    background: #ff9aa2; /* Slightly darker pastel pink */
 }
 
 .note {
     margin-top: 10px;
     font-size: 14px;
-    color: #ffb3d9; /* Light pink note text */
+    color: #8a4f52; /* Soft reddish-pink */
 }
 
 /* Snapchat Section */
@@ -77,7 +77,7 @@ button:hover {
 
 /* Discord Join Button */
 #discordBtn {
-    background: #ff4da6; /* Pink discord button */
+    background: #ffb6c1; /* Pastel pink */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -109,7 +109,7 @@ button:hover {
 }
 
 #discordBtn:hover {
-    background: #e60073; /* Darker pink hover effect */
+    background: #ff9aa2; /* Slightly darker pink */
 }
 
 /* Discord Logo Styling */

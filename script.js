@@ -9,5 +9,5 @@ document.getElementById("copyBtn").addEventListener("click", function() {
 
 // Discord Button Functionality
 document.getElementById("discordBtn").addEventListener("click", function() {
-    window.open("https://discord.gg/YOUR_SERVER_INVITE", "_blank"); // Replace with actual invite link
+    window.open("https://discord.gg/7NfJp7WB7T", "_blank"); // Replace with actual invite link
 });
